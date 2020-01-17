@@ -27,3 +27,11 @@ assert (libreria.es_Moneda_valido("REAL")== False)
 assert (libreria.es_Moneda_valido("YEN")== False)
 assert (libreria.es_Moneda_valido("SOLES")== True)
 print("es_Moneda_valido OK")
+
+assert (libreria.es_EstadoCivil_valido("SOLTERO")==True)
+assert (libreria.es_EstadoCivil_valido("ENAMORADO")==False)
+assert (libreria.es_EstadoCivil_valido("COMPROMETIDO")==False)
+assert (libreria.es_EstadoCivil_valido("CASADO")==True)
+assert (libreria.es_EstadoCivil_valido("VIUDO")==True)
+print("es_EstadoCivil_valido OK")
+

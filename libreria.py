@@ -47,4 +47,21 @@ def es_Moneda_valido(strMoneda):
         return False
 #fin_es_Moneda_valido
 
+#Ejercicio 5
+
+def es_EstadoCivil_valido(strEstado):
+    #1. Convertir strEstado es Mayuscula
+    #2. Convertir si Estado es igual a SOLTERO CASADO VIUDO DIVORCIADO
+       #retornar True
+       #caso contrario False
+
+    strEstado= strEstado.upper()
+    if (strEstado == "DIVORCIADO" or strEstado=="VIUDO" or strEstado=="CASADO" or strEstado=="SOLTERO"):
+        return True
+    else:
+        return False
+#fin_es_EstadoCivil_valido
+
+
+
 
