@@ -87,6 +87,18 @@ def validaNroTelefono(strTelefono):
         return False
 #fin_validaNroTelefono
 
+#Ejercicio 8
+
+def validarAñoNacimiento(Anio):
+    #1. validar Año nacimiento
+    #2. retornar Verdadero si el año conrresponde al limite de la funcion, falso si es lo contrario
+
+    if(Anio>=1940 and Anio<=2020):
+        return True
+    else:
+        return False
+#fin_validarAñoNacimiento
+
 
 
 
