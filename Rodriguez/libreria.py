@@ -123,6 +123,21 @@ def validarNroCuenta(strCuenta):
         return False
 #fin_validarNroCuenta
 
+#Ejercicio 11
+
+def validarRUC(strRUC):
+    #1.Validar RUC
+    #2.Retornar verdadero si el RUC tiene la misma longitud, falso si es lo contrario
+
+    if(len(strRUC)==11):
+        return True
+    else:
+        return False
+#fin_validarRUC
+
+
+
+
 
 
 

@@ -70,3 +70,10 @@ assert (libreria.validarNroCuenta("1234567890678")==False)
 assert (libreria.validarNroCuenta("762935196732873478")==True)
 print("validarNroCuenta OK")
 
+assert (libreria.validarRUC("01234529857")== True)
+assert (libreria.validarRUC("01234529857062")== False)
+assert (libreria.validarRUC("012345")== False)
+assert (libreria.validarRUC("01987862534")== True)
+assert (libreria.validarRUC("01234628749")== True)
+print("validarRUC OK")
+
