@@ -111,6 +111,18 @@ def ValidarNumeroImpar(Impar):
         return False
 #fin_ValidarNumeroImpar
 
+#Ejercicio 10
+
+def validarNroCuenta(strCuenta):
+    #1.Validar numero de cuenta
+    #2.Retornar verdadero si el numero de cuenta tiene la misma longitud, falso si es lo contrario
+
+    if(len(strCuenta)==18):
+        return True
+    else:
+        return False
+#fin_validarNroCuenta
+
 
 
 

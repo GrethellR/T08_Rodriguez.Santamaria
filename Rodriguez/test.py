@@ -63,4 +63,10 @@ assert (libreria.ValidarNumeroImpar(23)==True)
 assert (libreria.ValidarNumeroImpar(330)==False)
 print("ValidarNumeroImpar OK")
 
+assert (libreria.validarNroCuenta("123456789067895432")==True)
+assert (libreria.validarNroCuenta("1234567890")==False)
+assert (libreria.validarNroCuenta("235762387642923492")==True)
+assert (libreria.validarNroCuenta("1234567890678")==False)
+assert (libreria.validarNroCuenta("762935196732873478")==True)
+print("validarNroCuenta OK")
 
