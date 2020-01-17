@@ -62,6 +62,20 @@ def es_EstadoCivil_valido(strEstado):
         return False
 #fin_es_EstadoCivil_valido
 
+#Ejercicio 6
+
+def validamayorEdad(strEdad):
+    #1. Verificar strEdad
+    #2. retornar Verdadero si es mayo de edad, falso si es lo contrario
+
+    if(strEdad >= 18):
+        return True
+    else:
+        return False
+#fin_validamayorEdad
+
+
+
 
 
 

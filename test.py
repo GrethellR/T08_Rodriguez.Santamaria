@@ -35,3 +35,10 @@ assert (libreria.es_EstadoCivil_valido("CASADO")==True)
 assert (libreria.es_EstadoCivil_valido("VIUDO")==True)
 print("es_EstadoCivil_valido OK")
 
+assert (libreria.validamayorEdad(18)==True)
+assert (libreria.validamayorEdad(30)==True)
+assert (libreria.validamayorEdad(12)==False)
+assert (libreria.validamayorEdad(76)==True)
+assert (libreria.validamayorEdad(1)==False)
+print("validamayorEdad OK")
+
