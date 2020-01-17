@@ -135,6 +135,17 @@ def validarRUC(strRUC):
         return False
 #fin_validarRUC
 
+#Ejercicio 12
+
+def validarID(strID):
+    #1.Validar ID
+    #2.Retornar verdadero si el ID tiene la misma longitud, falso si es lo contrario
+
+    if(len(strID)==7):
+        return True
+    else:
+        return False
+#fin_validarID
 
 
 
