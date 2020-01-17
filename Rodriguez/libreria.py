@@ -159,7 +159,19 @@ def validarMenorEdad(Edad):
         return False
 #fin_validarMenorEdad
 
+#Ejercicio 14
 
+def validarMes(strMes):
+    #1.validar Mes
+    #2. retornar verdadero si el mes coincide , falso si es lo contrario
+
+    if(strMes=="ENERO" or strMes=="FEBRERO" or strMes=="MARZO" or strMes=="ABRIL" or strMes=="MAYO" or strMes=="JUNIO"
+        or strMes=="JULIO" or strMes=="AGOSTO" or strMes=="SETIEMBRE" or strMes=="OCTUBRE"
+        or strMes=="NOVIEMBRE" or strMes=="DICIEMBRE"):
+        return True
+    else:
+        return False
+#fin_validarMes
 
 
 
