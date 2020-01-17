@@ -42,3 +42,12 @@ assert (libreria.validamayorEdad(76)==True)
 assert (libreria.validamayorEdad(1)==False)
 print("validamayorEdad OK")
 
+assert (libreria.validaNroTelefono("984645040")==True)
+assert (libreria.validaNroTelefono("984123")==False)
+assert (libreria.validaNroTelefono("963875424")==True)
+assert (libreria.validaNroTelefono("98464504032")==False)
+assert (libreria.validaNroTelefono("984876635423")==False)
+print("validaNroTelefono OK")
+
+
+

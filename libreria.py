@@ -62,6 +62,7 @@ def es_EstadoCivil_valido(strEstado):
         return False
 #fin_es_EstadoCivil_valido
 
+
 #Ejercicio 6
 
 def validamayorEdad(strEdad):
@@ -73,6 +74,19 @@ def validamayorEdad(strEdad):
     else:
         return False
 #fin_validamayorEdad
+
+#Ejercicio 7
+
+def validaNroTelefono(strTelefono):
+    #1. Verificar strTelefono
+    #2. retornar Verdadero si la longitud de la cadena es de 9 caracteres, falso si es lo contrario
+
+    if(len(strTelefono)==9 ):
+        return True
+    else:
+        return False
+#fin_validaNroTelefono
+
 
 
 
