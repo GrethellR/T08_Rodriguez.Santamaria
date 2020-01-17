@@ -32,6 +32,19 @@ def valida_NroPar(Par):
         return False
 #fin_valida_NroPar
 
+#Ejercicio 4
 
+def es_Moneda_valido(strMoneda):
+    #1. Convertir strMoneda es Mayuscula
+    #2. Convertir si moneda es igual a EUROS SOLES DOLARES
+       #retornar True
+       #caso contrario False
+
+    strMoneda= strMoneda.upper()
+    if (strMoneda == "EUROS" or strMoneda=="SOLES" or strMoneda=="DOLARES"):
+        return True
+    else:
+        return False
+#fin_es_Moneda_valido
 
 
