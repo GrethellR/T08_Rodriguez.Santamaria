@@ -173,7 +173,16 @@ def validarMes(strMes):
         return False
 #fin_validarMes
 
+#Ejercicio 15
 
+def valida_Letra(strLetra):
+    #1.strLetra es un caracter
+    #2.Se validara si es letra
+    if(strLetra=='R' or strLetra== 'F' or strLetra=='G' or strLetra=='A'):
+        return True
+    else:
+        return False
+#fin_valida_Letra
 
 
 
