@@ -56,5 +56,11 @@ assert (libreria.validarAñoNacimiento(1905) == False)
 assert (libreria.validarAñoNacimiento(1998) == True)
 print("validarAñoNacimiento OK")
 
+assert (libreria.ValidarNumeroImpar(123)==True)
+assert (libreria.ValidarNumeroImpar(1234)==False)
+assert (libreria.ValidarNumeroImpar(12)==False)
+assert (libreria.ValidarNumeroImpar(23)==True)
+assert (libreria.ValidarNumeroImpar(330)==False)
+print("ValidarNumeroImpar OK")
 
 

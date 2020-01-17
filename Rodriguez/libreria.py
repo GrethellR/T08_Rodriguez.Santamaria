@@ -99,7 +99,17 @@ def validarAñoNacimiento(Anio):
         return False
 #fin_validarAñoNacimiento
 
+#Ejercicio 9
 
+def ValidarNumeroImpar(Impar):
+    #1. validar si numero es impar
+    #2. retornar verdadero si el numero es impar, falso si es lo contrario
+
+    if(Impar%2!=0):
+        return True
+    else:
+        return False
+#fin_ValidarNumeroImpar
 
 
 
