@@ -14,4 +14,9 @@ assert (libreria.valida_Vocal("u")== True)
 assert (libreria.valida_Vocal("f")== False)
 print("valida_Vocal OK")
 
-
+assert (libreria.valida_NroPar(5)== False)
+assert (libreria.valida_NroPar(4)== True)
+assert (libreria.valida_NroPar(21)== False)
+assert (libreria.valida_NroPar(20)== True)
+assert (libreria.valida_NroPar(1)== False)
+print("valida_NroPar OK")

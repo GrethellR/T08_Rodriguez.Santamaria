@@ -20,4 +20,18 @@ def valida_Vocal(strVocal):
         return False
 #fin_valida_Vocal
 
+#Ejercicio 3
+
+def valida_NroPar(Par):
+    #1.strPar es un numero
+    #2.Se validara solo si es un numero par
+
+    if(Par%2==0):
+        return True
+    else:
+        return False
+#fin_valida_NroPar
+
+
+
 
