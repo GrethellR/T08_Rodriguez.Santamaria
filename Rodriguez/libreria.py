@@ -147,6 +147,20 @@ def validarID(strID):
         return False
 #fin_validarID
 
+#Ejercicio 13
+
+def validarMenorEdad(Edad):
+    #1.validar Edad
+    #2.retornar verdadero si la edad es menor a 18 , falso si es lo contrario
+
+    if(Edad<18):
+        return True
+    else:
+        return False
+#fin_validarMenorEdad
+
+
+
 
 
 

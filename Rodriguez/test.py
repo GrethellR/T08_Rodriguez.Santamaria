@@ -83,3 +83,11 @@ assert (libreria.validarID("1234")==False)
 assert (libreria.validarID("12345670")==False)
 assert (libreria.validarID("1123232")==True)
 print("validarID OK")
+
+assert (libreria.validarMenorEdad(20)==False)
+assert (libreria.validarMenorEdad(2)==True)
+assert (libreria.validarMenorEdad(22)==False)
+assert (libreria.validarMenorEdad(12)==True)
+assert (libreria.validarMenorEdad(32)==False)
+print("validarMenorEdad OK")
+
