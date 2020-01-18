@@ -1,4 +1,4 @@
-from Rodriguez import libreria
+import libreria
 
 assert (libreria.valida_Dni("7288342") == False)
 assert (libreria.valida_Dni("12345") == False)
